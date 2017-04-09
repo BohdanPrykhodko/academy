@@ -1,0 +1,5 @@
+http://getbootstrap.com/css/#grid-example-basic
+Выбираем col-sm и автоматически будет показывать как и на col-md col -lg
+
+Отступы пример
+col-md-offset-4
