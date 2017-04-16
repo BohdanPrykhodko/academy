@@ -1,0 +1,14 @@
+.mb30 {
+	margin-bottom: 30px;
+}
+
+.bc {
+	border: 2px solid #000;
+	height: 100px;
+	padding:0;
+}
+
+.blocks {
+	height: 49px;
+	background-color: green;
+}
