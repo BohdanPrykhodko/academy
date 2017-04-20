@@ -1,0 +1,16 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	text-align: center;
+	color: #fff;
+}
+section#mail {
+	height: 800px;
+	background-image: url(../IMG/struct.png);
+	background-repeat: repeat;
+}
+.basket-img {
+	width: 32px;
+}
