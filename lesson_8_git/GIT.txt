@@ -6,6 +6,7 @@ git status - проверка статуса перезаписали или нет
 
 git commit -m "first commit"
 git remote add origin http://github....... и сам путь репозитор
+git diff - сравнить у ветках изменения
 git push  -u origin master
 
 git config --global user.email "bodianz@mail.ru"
