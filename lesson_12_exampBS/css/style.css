@@ -1,0 +1,22 @@
+body {
+	margin: 0;
+	font-family: Tahoma;
+}
+
+h1 {
+	font-size: 24px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.box-block__text {
+	padding: 20px;
+	text-align: center;
+}
+ .container {
+ 	text-align: center;
+}
+
+.box img {
+	min-height:82px;
+}
