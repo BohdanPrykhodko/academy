@@ -1,0 +1,30 @@
+$size:10px
+$color:#FF9C00
+
+body
+	background-color: #fff
+
+header
+	margin: $size*5
+	text-align: center
+	h1
+		font-size: $size*2
+
+	p 
+		font-size: $size+4
+
+.header 
+	&__title
+		font-size: $size*2
+		color: $color
+	&__text
+		color: darken($color, 10) // процент 
+	&__button
+		background-color: $color
+		box-shadow: 1px 5px 20px lighten($color, 10)
+		padding: 10px
+		border-radius: 5px
+		border: 0px
+	button:focus
+		outline: none
+

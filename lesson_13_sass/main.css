@@ -1,0 +1,33 @@
+body {
+  background-color: #fff;
+}
+
+header {
+  margin: 50px;
+  text-align: center;
+}
+header h1 {
+  font-size: 20px;
+}
+header p {
+  font-size: 14px;
+}
+
+.header__title {
+  font-size: 20px;
+  color: #FF9C00;
+}
+.header__text {
+  color: #cc7d00;
+}
+.header__button {
+  background-color: #FF9C00;
+  -webkit-box-shadow: 1px 5px 20px #ffb033;
+          box-shadow: 1px 5px 20px #ffb033;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+}
+.header button:focus {
+  outline: none;
+}
