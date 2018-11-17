@@ -4,30 +4,92 @@
 	<meta charset="UTF-8">
 	<title>Flex-box</title>
 	<link rel="stylesheet" href="reset.css">
-	<link rel="stylesheet" href="main.sass">
 	<link rel="stylesheet" href="main.css">
+	<link rel="stylesheet" href="main.sass">
 </head>
 <body>
-	<header class="header">
-		<div class="container">	
-			<div class="hrader-img">
-				<img src="img/header-img.jpg" alt="books-img">
-			</div>
-			<div class="header-text">
-				<div class="header__title">Истинная королева</div>
-				<div class="header__subtitle">Екатерина Арагонская</div>
-				<div class="header__dsc"><p>«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
+	<article class="selling-book">
+			<header class="header">
+				<div class="container">	
+					<div class="header-img">
+						<img src="img/header-img.jpg" alt="books-img">
+					</div>
+					<div class="header-text">
+						<div class="header__title">Истинная королева</div>
+						<div class="header__subtitle">Екатерина Арагонская</div>
+						<div class="header__dsc"><p>«Екатерина Арагонская» — это первый роман популярного автора и известного историка Элисон Уэйр, решившей создать драматическую серию, в которой каждая книга будет посвящена одной из жен короля Генриха VIII.</p>
+						</div>
+						<div class="header-text__price">
+							<p>399 грн.</p>
+						</div>
+						<div class="push">
+							<button class="button">Купить</button>
+							<button class="button button-o">Узнать подробней</button>
+						</div>
+					</div>
 				</div>
-				<div class="header-text__price">
-					399грн.
-				</div>
-				<button class="button">Купить</button>
-				<button class="button button-o">Узнать подробней</button>
+				<!-- /.container -->
+			</header>
+			<!-- /.header -->
+		
+			<div class="features-wrap">
+				<section class="features">
+					<div class="section-title">
+							<h2>Доставка и оплата</h2>
+						</div>
+					<div class="container-blocks">
+						<div class="features-block">	
+							<img src="img/features/shopping-cart.png" alt="shoping">
+							<div class="features-block__text">
+								<p>Бесплатная доставка<br> 
+								381 магазин в сети</p>	
+							</div>
+						</div>
+						<div class="features-block">	
+							<img src="img/features/credit-card.png" alt="credit">
+							<div class="features-block__text">
+								<p>Оплата онлайн или<br> наличными при получении</p>	
+							</div>
+						</div>
+						<div class="features-block">	
+							<img src="img/features/shipped.png" alt="shipped">
+							<div class="features-block__text">
+								<p>Курьерская доставка: <br> 
+								от 2000 грн. – бесплатно</p>	
+							</div>
+						</div>
+						<div class="features-block">	
+							<img src="img/features/mailbox.png" alt="mailbox">
+							<div class="features-block__text">
+								<p>Почтой Украины – <br>
+								в любую точку страны</p>	
+							</div>
+						</div>
+					</div>
+				</section>
 			</div>
-		</div>
-		<!-- /.container -->
-	</header>
-	<!-- /.header -->
-	
+			<!-- /.features -->
+		
+			<div class="section-blocks">
+				<div class="container-title">
+					<div class="feedback__text"><h2>Кто уже купил эту книгу</h2>
+					</div>
+				</div>
+				<div class="blocks-img1">
+					<img src="img/feed-img/first.jpg" alt="1">
+					<img src="img/feed-img/second.jpg" alt="2">
+					<img src="img/feed-img/third.jpg" alt="3">
+					<img src="img/feed-img/fourth.jpg" alt="4">
+				</div>
+				<div class="blocks-img2">	
+					<img src="img/feed-img/fifth.jpg" alt="5">
+					<img src="img/feed-img/sixth.jpg" alt="6">
+					<img src="img/feed-img/seventh.jpg" alt="7">
+					<img src="img/feed-img/eigth.jpg" alt="8">
+				</div>
+				</div>
+			</div>
+			<!-- /.section-blocks -->
+	<!-- /.selling-book -->
 </body>
 </html>
