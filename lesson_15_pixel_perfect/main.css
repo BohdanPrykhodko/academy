@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Roboto";
+  background: url(img/bg_girl.jpg);
+  background-size: cover; }
+  body .container::after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.main {
+  padding: 136px 350px; }
+  .main-text {
+    display: block; }
+  .main-regist {
+    width: 149px;
+    height: 25px;
+    background-color: #75C5F7;
+    position: relative;
+    top: -15px;
+    transform: translateX(65px);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+    border: 1px solid #dcdcdc;
+    width: 160px;
+    height: 30px;
+    text-align: center;
+    padding: 8px 10px;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-transform: uppercase;
+    letter-spacing: -0.12px; }
+  .main-text {
+    width: 397px;
+    height: 481px;
+    background-image: linear-gradient(to top, #ffffff 0%, #ebf4f4 100%);
+    opacity: 0.6;
+    display: block;
+    text-align: center; }
+  .main-text__title {
+    font-family: Roboto;
+    font-size: 33px;
+    font-weight: 400;
+    margin-bottom: 24px; }
+  .main-text__subtitle {
+    font-family: Roboto;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px; }
+  .main-form label p {
+    padding-bottom: 10px; }
+  .main-form sub {
+    color: #75C5F7; }
+  .main-form__input {
+    display: block;
+    margin: 0px 50px;
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px; }
+  .main-form__button {
+    width: 260px;
+    height: 45px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2), inset 0 1px 2px #ffffff;
+    border: 1px solid #dcdcdc;
+    background-color: #75C5F7;
+    background-image: #75C5F7;
+    color: #003B77;
+    font-size: 24px; }
+
+/*# sourceMappingURL=main.css.map */
